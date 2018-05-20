@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">MLTutor</string>
+
+    <string-array name="content_title">
+        <item>Introduction</item>
+        <item>  Different Types of Learning</item>
+        <item>Hypothesis Space and Inductive Bias</item>
+        <item>Evaluation and Cross-Validation</item>
+        <item>Tutorial I</item>
+        <item> Linear Regression</item>
+        <item>Introduction to Decision Trees</item>
+        <item>Learning Decision Tree</item>
+        <item>Overfitting</item>
+        <item>Python Exercise on Decision Tree and Linear Regression </item>
+    </string-array>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 

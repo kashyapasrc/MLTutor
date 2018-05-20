@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor"
+
     android:orientation="vertical">
 
 
@@ -9,15 +11,19 @@
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_gravity="center"
         card_view:cardCornerRadius="4dp">
 
         <TextView
+            android:id="@+id/item_content_textview_content_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Hello Card"
+            android:lines="1"
             android:textColor="@color/backgroundColor" />
 
     </android.support.v7.widget.CardView>

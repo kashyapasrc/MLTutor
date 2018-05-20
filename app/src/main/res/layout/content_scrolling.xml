@@ -4,17 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".activities.ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
 
-    <TextView
-        android:lineSpacingExtra="10dp"
-        android:textColor="@color/colorWhite"
+    <uk.co.deanwild.flowtextview.FlowTextView
+        android:id="@+id/ftv"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dip"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="400dip"
+            android:padding="10dip"
+            android:src="@mipmap/ic_launcher" />
+    </uk.co.deanwild.flowtextview.FlowTextView>
+
+   <!-- <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:text="@string/large_text" />
-
+        android:text="@string/large_text"
+        android:visibility="gone" />
+-->
 </android.support.v4.widget.NestedScrollView>

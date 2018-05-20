@@ -1,8 +1,10 @@
 package com.kashyap.mltutor.models;
 
+import java.io.Serializable;
+
 import static com.kashyap.mltutor.utils.Constants.EMPTY;
 
-public class ContentModel {
+public class ContentModel implements Serializable {
 
 
     private int mId = 0;
