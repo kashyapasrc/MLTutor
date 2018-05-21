@@ -9,6 +9,7 @@ import com.kashyap.mltutor.R;
 
 public class SplashActivity extends AppCompatActivity {
 
+    private final int SPLASH_SCREEN_DURATION=1500;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 navigateToMainActivity();
             }
-        }, 600);
+        }, SPLASH_SCREEN_DURATION);
     }
 
     private void navigateToMainActivity() {

@@ -25,7 +25,25 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    //CardView
     implementation 'com.android.support:cardview-v7:27.1.1'
+    //RecyclerView
     implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    //For dispalying the content with images
     implementation 'com.github.deano2390:FlowTextView:2.0.5'
+    //App title Animation.
+    def htextview_version = "0.1.6"
+    implementation "com.hanks:htextview-base:$htextview_version"        // base library
+
+    implementation "com.hanks:htextview-rainbow:$htextview_version"
+
+    //On Success full flower fall animation.
+    implementation 'nl.dionsegijn:konfetti:1.1.2'
+
+
+
+
+
 }

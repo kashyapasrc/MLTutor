@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-
 import com.kashyap.mltutor.R;
 import com.kashyap.mltutor.fragments.ContentFragment;
 
@@ -35,7 +34,10 @@ public class MainActivity extends AppCompatActivity {
                 .beginTransaction()
                 .replace(R.id.activity_main_frame_layout_fragments_holder,fragment,fragment.getClass().getSimpleName())
                 .commit();
+
+
     }
+
 
 
 
